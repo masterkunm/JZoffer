@@ -2,11 +2,8 @@
 
 ## **Link**
 
-
 https://leetcode.com/problems/plus-one/
 
-
------
 ## **Description**
 Given a non-empty array of digits representing a non-negative integer, plus one to the integer.
 
@@ -23,20 +20,16 @@ You may assume the integer does not contain any leading zero, except the number 
     Output: [4,3,2,2]
     Explanation: The array represents the integer 4321.
 
------
 ## **reflect** (3 cases we need to notice)
 1. after plusOne, no carry bit in the least significant digit; （124 = 123 + 1）
 2. after plusOne, there is/are carry bit in digits except the most significant digit; （200 = 199 + 1）
 3. after plusOne, there is carry bit in the most significant digit;（1000 = 999 + 1）
 
-
-
-------
 ## **implement**
 - loop from the least digit to the most digit;
 - C language can use memset();
 
-[C++]
+> C++
 
 ```cpp
 class Solution {
@@ -64,11 +57,13 @@ public:
     }
 };
 ```
-
-[C]
+> C
 
 ```c
-    /*** Note: The returned array must be malloced, assume caller calls free(). ***/
+    /* 
+     * Note: The returned array must be malloced, 
+     * assume caller calls free(). 
+     */
     int* plusOne(int* digits, int digitsSize, int* returnSize){
         if (digits == NULL) return NULL;
 
@@ -85,11 +80,11 @@ public:
             }
         }
 
-        /*** 
-        need to assign returnSize, 
-        otherwise the outer won't know the size of new array, 
-        easily lead to heap buffer overflow 
-        ***/
+        /* 
+         *need to assign returnSize, 
+         *otherwise the outer won't know the size of new array, 
+         * easily lead to heap buffer overflow 
+         */
         *returnSize = digitsSize + 1;
         int* res = (int*)malloc((*returnSize)*sizeof(int));
         // 3rd arg is the len of bytes rather len of array
