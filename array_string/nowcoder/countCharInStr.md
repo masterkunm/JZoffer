@@ -4,7 +4,7 @@
 
 https://www.nowcoder.com/practice/6d5e036defdf408681376a4a9d4930ff?tpId=98&tqId=32844&tPage=2&rp=2&ru=/ta/2019test&qru=/ta/2019test/question-ranking
 
-快手 | 难度：1
+快手 | Kwai | 难度：1
 
 ## **题目描述**
 
