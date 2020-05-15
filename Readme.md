@@ -1,7 +1,9 @@
 # File with heading
+
 this is the first markdown skills -> File heading !!
 
 ## Subheading
+
 this is the second trick.
 [EOF]
 
@@ -16,4 +18,7 @@ Hi !!
 
 This is gonna be my repo to upload my codes and reviews for questions I did in 剑指offer and leetcode.
 
+## **issue**
 
+* github flavored markdown not renders MathJax/Latex
+  * temporarity fixed solution -> [Chrome view plugin](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima) only supports Chrome browser
