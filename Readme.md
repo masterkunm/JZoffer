@@ -20,5 +20,6 @@ This is gonna be my repo to upload my codes and reviews for questions I did in å
 
 ## **issue**
 
-* github flavored markdown not renders MathJax/Latex
-  * temporarity fixed solution -> [Chrome view plugin](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima) only supports Chrome browser
+1. github flavored markdown not renders MathJax/Latex
+
+   * temporarity fixed solution -> [Chrome view plugin](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima) only supports Chrome browser
